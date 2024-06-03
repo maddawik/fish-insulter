@@ -4,6 +4,8 @@ The Fish-Insulter is a fun utility that randomly teases or jests at the user whe
 
 **Disclaimer: No users were harmed during the making of this utility. 😄**
 
+![Preview](https://github.com/Alaz-Oz/fish-insulter/assets/51114513/d4274be7-38ab-4696-be52-3ccf8ca7c934)
+
 ```fish
 noob@fish:~ > sl
 
