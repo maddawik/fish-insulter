@@ -2,36 +2,36 @@
 # Inspiration: https://github.com/hkbakke/bash-insulter
 
 function __insulter_print_message
-    set color 0
+    set color none
     set freq 4
     set messages \
-        "Go ask your mother"\
-        "Quit typing rubbish"\
-        "Okay, I am leaving"\
-        "Go play outside"\
-        "Did you mean, sudo rm -rf /"\
-        "End this here and now"\
-        "Waiting for the AI to take over?"\
-        "Sorry there is no Auto-correct feature here"\
-        "Calling FBI on you"\
-        "Please write carefully"\
-        "Deleting system..."\
+        "Go ask your mother" \
+        "Quit typing rubbish" \
+        "Okay, I am leaving" \
+        "Go play outside" \
+        "Did you mean, sudo rm -rf /" \
+        "End this here and now" \
+        "Waiting for the AI to take over?" \
+        "Sorry there is no Auto-correct feature here" \
+        "Calling FBI on you" \
+        "Please write carefully" \
+        "Deleting system..." \
         "You are mad! or what!?" \
         "Boooo!" \
         "Don't you know anything?" \
         "RTFM!" \
         "Haha, n00b!" \
         "Wow! That was impressively wrong!" \
-        "Pathetic" \
+        Pathetic \
         "The worst one today!" \
         "n00b alert!" \
         "Your application for reduced salary has been sent!" \
-        "lol" \
+        lol \
         "u suk" \
         "lol... plz" \
         "plz uninstall" \
         "And the Darwin Award goes to.... $USER!" \
-        "ERROR_INCOMPETENT_USER" \
+        ERROR_INCOMPETENT_USER \
         "Incompetence is also a form of competence" \
         "Bad." \
         "Fake it till you make it!" \
@@ -85,15 +85,15 @@ function __insulter_print_message
     test -n "$CMD_NOT_FOUND_MSGS_APPEND" && set -a messages $CMD_NOT_FOUND_MSGS_APPEND
 
     test -n "$COMMENT_COLOR" && set color $COMMENT_COLOR
-    if [ $color = 0 ];
-        set color (random 1 255)
+    if [ $color = none ]
+        set color (random choice (set_color --print-colors))
     end
 
     # Print a randomly selected message, but only about half the time to annoy the user a
     # little bit less.
-    if test (math $RANDOM % 10) -lt $freq;
+    if test (math $RANDOM % 10) -lt $freq
         set message $messages[(math \( $RANDOM % (count $messages) \) + 1)]
-        printf "\\n  %s\\n\\n" "$(tput bold)$(tput setaf $color)$message$(tput sgr0)" >&2
+        printf "\\n  %s\\n\\n" "$(tput bold)$(set_color $color)$message$(tput sgr0)" >&2
     end
 end
 
