@@ -14,11 +14,13 @@ function __insulter_print_message
         "Waiting for the AI to take over?" \
         "Sorry there is no Auto-correct feature here" \
         "Calling FBI on you" \
+        "What, you egg?" \
         "Please write carefully" \
         "Deleting system..." \
         "You are mad! or what!?" \
         "Boooo!" \
         "Don't you know anything?" \
+        "50 DKP MINUS!" \
         "RTFM!" \
         "Haha, n00b!" \
         "Wow! That was impressively wrong!" \
@@ -27,6 +29,7 @@ function __insulter_print_message
         "n00b alert!" \
         "Your application for reduced salary has been sent!" \
         lol \
+        "wtf?" \
         "u suk" \
         "lol... plz" \
         "plz uninstall" \
@@ -44,11 +47,15 @@ function __insulter_print_message
         "This is not Windows" \
         "Perhaps you should leave the command line alone..." \
         "Please step away from the keyboard!" \
+        "All your base are belong to us." \
         "error code: 1D10T" \
         "ACHTUNG! ALLES TURISTEN UND NONTEKNISCHEN LOOKENPEEPERS! DAS KOMPUTERMASCHINE IST NICHT FÜR DER GEFINGERPOKEN UND MITTENGRABEN! ODERWISE IST EASY TO SCHNAPPEN DER SPRINGENWERK, BLOWENFUSEN UND POPPENCORKEN MIT SPITZENSPARKEN. IST NICHT FÜR GEWERKEN BEI DUMMKOPFEN. DER RUBBERNECKEN SIGHTSEEREN KEEPEN DAS COTTONPICKEN HÄNDER IN DAS POCKETS MUSS. ZO RELAXEN UND WATSCHEN DER BLINKENLICHTEN." \
         "Pro tip: type a valid command!" \
         "Go outside." \
+        "(╯°□°）╯︵ ┻━┻" \
+        "¯\\_(ツ)_/¯" \
         "This is not a search engine." \
+        "Do you need an LLM to hold your hand wittle baby?" \
         "So, I'm just going to go ahead and run rm -rf / for you." \
         "Why are you so stupid?!" \
         "Perhaps computers is not for you..." \
@@ -62,14 +69,17 @@ function __insulter_print_message
         "My keyboard is not a touch screen!" \
         "Commands, random gibberish, who cares!" \
         "Typing incorrect commands, eh?" \
+        "The bug is somewhere between the keyboard and the chair." \
         "Are you always this stupid or are you making a special effort today?!" \
         "Dropped on your head as a baby, eh?" \
         "Brains aren't everything. In your case they're nothing." \
         "I don't know what makes you so stupid, but it really works." \
+        "Your mother was a hamster and your father smelled of ELDERBERRIES!" \
         "You are not as bad as people say, you are much, much worse." \
         "Two wrongs don't make a right, take your parents as an example." \
         "You must have been born on a highway because that's where most accidents happen." \
         "If what you don't know can't hurt you, you're invulnerable." \
+        "Away, you starvelling, you elf-skin, you dried neat’s-tongue, bull’s-pizzle, you stock-fish!" \
         "If ignorance is bliss, you must be the happiest person on earth." \
         "You're proof that god has a sense of humor." \
         "Keep trying, someday you'll do something intelligent!" \
